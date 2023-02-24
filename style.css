@@ -25,7 +25,11 @@ header {
     border-radius: 18px;
     padding: 0px 50px;
     box-shadow: 0 0 18px rgba(128, 128, 128, 0.7);
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+
+.header:hover{
+    box-shadow: 0 0 25px rgba(128, 128, 128, 0.7);
 }
 
 
@@ -46,11 +50,11 @@ header {
 }
 
 .header-banner h1 strong {
-    font-size: 9vw;
+    font-size: 10rem;
 }
 
 .header-banner h2 strong  {
-    font-size: 3vw;
+    font-size: 4rem;
     padding-left: 20px;
 }
 
@@ -58,6 +62,8 @@ header {
 .header-banner h2 {
     margin: 0;
 }
+
+
 
 
 
