@@ -11,6 +11,7 @@ header {
     background-size: cover;
     padding-top: 25px;
     height: 100dvh;
+    color: white;
 }
 
 .header {
@@ -34,4 +35,31 @@ header {
     padding: 0;
     gap: 20px;
 }
+
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.header-banner h1 strong {
+    font-size: 9vw;
+}
+
+.header-banner h2 strong  {
+    font-size: 3vw;
+    padding-left: 20px;
+}
+
+.header-banner h1,
+.header-banner h2 {
+    margin: 0;
+}
+
+
+
+
 
