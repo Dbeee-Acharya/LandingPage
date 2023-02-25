@@ -195,6 +195,14 @@ a {
     gap: 1.5rem;
 }
 
+.contact-image:nth-child(2){
+    transition-delay: 300ms;
+}
+
+.contact-image:nth-child(3) {
+    transition-delay: 400ms;
+}
+
 footer {
     color: white;
     background: linear-gradient(#415cfe, #c324ff);
