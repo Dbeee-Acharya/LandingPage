@@ -195,6 +195,21 @@ a {
     gap: 1.5rem;
 }
 
+footer {
+    color: white;
+    background: linear-gradient(#415cfe, #c324ff);
+    padding: 0 10rem;
+    position: relative;
+    z-index: 60;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
 @media (max-width: 500px) {
 
     .header ul {
