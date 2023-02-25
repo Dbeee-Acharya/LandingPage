@@ -210,7 +210,7 @@ footer {
     position: relative;
     z-index: 60;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 footer p {
