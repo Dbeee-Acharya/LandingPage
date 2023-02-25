@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -12,6 +16,9 @@ header {
     padding-top: 25px;
     height: 100dvh;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 0;
 }
 
 .header {
@@ -46,24 +53,34 @@ header {
     align-items: flex-start;
     width: 90%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
-.header-banner h1 strong {
+.header-banner h1  {
     font-size: 10rem;
 }
 
-.header-banner h2 strong  {
+.header-banner h2   {
     font-size: 4rem;
-    padding-left: 20px;
 }
 
-.header-banner h1,
-.header-banner h2 {
+.header-banner :is(h1, h2) {
     margin: 0;
 }
 
+article {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+}
 
+article h1 {
+    margin: 0;
+}
 
 
 
