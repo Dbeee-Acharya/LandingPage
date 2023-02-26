@@ -205,7 +205,7 @@ a {
 
 footer {
     color: white;
-    background: linear-gradient(#415cfe, #c324ff);
+    background: linear-gradient(#c324ff,#415cfe );
     padding: 0 10%;
     position: relative;
     z-index: 60;
